@@ -138,7 +138,7 @@ namespace ComputerInventoryAPI.Migrations
                 {
                     { 1, new DateTime(2026, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Gaming Beast", 5, 36, 12.5f },
                     { 2, new DateTime(2026, 4, 10, 0, 0, 0, 0, DateTimeKind.Unspecified), "Office Pro", 10, 24, 4.2f },
-                    { 3, new DateTime(2026, 5, 15, 10, 35, 25, 887, DateTimeKind.Local).AddTicks(2630), "Workstation", 2, 48, 15f }
+                    { 3, new DateTime(2026, 5, 10, 0, 0, 0, 0, DateTimeKind.Unspecified), "Workstation", 2, 48, 15f }
                 });
 
             migrationBuilder.InsertData(
@@ -147,7 +147,7 @@ namespace ComputerInventoryAPI.Migrations
                 values: new object[,]
                 {
                     { "I9-14900K ", 2, 2, "Flagship Desktop Processor", "Core i9" },
-                    { "RTX4080   ", 1, 1, "High-end Gaming GPU", "RTX 4080" },
+                    { "RTX4080", 1, 1, "High-end Gaming GPU", "RTX 4080" },
                     { "VENGE-16GB", 3, 3, "High-speed DDR5 RAM", "Vengeance 16GB" }
                 });
 

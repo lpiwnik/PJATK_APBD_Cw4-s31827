@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ComputerInventoryAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260515083526_InitialCreate")]
+    [Migration("20260515180021_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -55,7 +55,7 @@ namespace ComputerInventoryAPI.Migrations
                     b.HasData(
                         new
                         {
-                            Code = "RTX4080   ",
+                            Code = "RTX4080",
                             ComponentManufacturersId = 1,
                             ComponentTypesId = 1,
                             Description = "High-end Gaming GPU",
@@ -217,7 +217,7 @@ namespace ComputerInventoryAPI.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2026, 5, 15, 10, 35, 25, 887, DateTimeKind.Local).AddTicks(2630),
+                            CreatedAt = new DateTime(2026, 5, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Workstation",
                             Stock = 2,
                             Warranty = 48,

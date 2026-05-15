@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace ComputerInventoryAPI.Models;
 
 [Table("PCComponents")]
-public class PcComponent
+public sealed class PcComponent
 {
     public int PcId { get; set; }
     
@@ -14,8 +14,8 @@ public class PcComponent
     public int Amount { get; set; }
 
     [ForeignKey(nameof(PcId))]
-    public virtual PC Pc { get; set; }
+    public PC Pc { get; set; }
     
     [ForeignKey(nameof(ComponentCode))]
-    public virtual Component Component { get; set; }
+    public Component Component { get; set; }
 }
