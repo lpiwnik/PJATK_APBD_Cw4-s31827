@@ -1,4 +1,4 @@
-# Projekt: Computer Inventory API - APBD 2026 (Ćwiczenia 7)
+# Projekt: Computer Inventory API - APBD 2026 
 
 ## 🚀 Szybki Start (Docker)
 
